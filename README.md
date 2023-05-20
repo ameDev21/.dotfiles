@@ -1,2 +1,2 @@
 # .dotfiles
-this is a small collection of essential dot files.
+this is a small collection of my essentials dot files.

@@ -1,4 +1,4 @@
-equire("americo")
+require("americo")
 
 -- latex pdf viewer
 vim.g.vimtex_view_method = 'zathura'

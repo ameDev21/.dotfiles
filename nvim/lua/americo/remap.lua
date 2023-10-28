@@ -27,4 +27,6 @@ vim.keymap.set("n", "Y", [["+Y]])
 keymap("n", "<C-o>", ":NvimTreeToggle<cr>", opts)
 
 -- vimtex
-keymap("", "co", ":VimtexCompile<cr>", {})
+keymap("", "co", ":VimtexCompile <cr>", {})
+-- markdown preview
+keymap("", "cm", ":MarkdownPreview<cr>", {})

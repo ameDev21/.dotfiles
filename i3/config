@@ -196,7 +196,7 @@ exec --no-startup-id nitrogen --restore
 exec --no-startup-id "picom --config /home/americo/.config/picom/picom.conf"
 #
 # adjusting display temperature
-exec --no-startup-id redshift -P -O 2750
+exec --no-startup-id redshift -P -O 2350
 #
 # remove the borders for every window
 for_window [class="^.*"] border pixel 3
@@ -218,13 +218,13 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # start up applications
+exec ~/.screenlayout/defualt.sh
 exec kitty
 exec brave
 exec spotify
-exec notion-app
 exec pcloud
+exec rmdir ~/Downloads/
 
 # workspaces application assign 
 assign [class="Brave-browser"] $ws2
-assign [class="notion-app"] $ws3
-assign [class="Spotify"] $ws4
+assign [class="Spotify"] $ws3

@@ -1,6 +1,4 @@
 require("americo")
 
--- latex pdf viewer
-vim.g.vimtex_view_method = 'zathura'
--- latex compiler
-vim.g.vimtex_compiler_method = 'latexmk'
+-- markdown preview refresh
+vim.g.mkdp_refresh_slow = 1
